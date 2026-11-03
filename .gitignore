@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Microsoft Edge / Selenium
+jira_edge_profile/
+driver/
+msedgedriver.exe
+edgedriver.zip
+
+# Application data
+jira_alertas.json
+jira_monitor_error.log
+*.log
+*.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Builds
+build/
+dist/
+*.spec
